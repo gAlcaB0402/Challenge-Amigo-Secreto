@@ -10,8 +10,12 @@ function agregarAmigo() {
     listaDeAmigos.push(nombreAmigo);
     console.log(listaDeAmigos);
     }
+    limpiarCampo();
 }
 
+function limpiarCampo() {
+    document.getElementById("amigo").value = ' ';
+}
 function actualizarListaAmigos() {
 
 }
