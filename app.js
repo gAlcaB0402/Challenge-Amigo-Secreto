@@ -3,8 +3,13 @@ let listaDeAmigos = [];
 
 function agregarAmigo() {
     const nombreAmigo = document.getElementById("amigo").value;
+    
+    if (nombreAmigo.trim() === "" || nombreAmigo.length === 0) {
+        alert("Por favor, inserte un nombre");
+    } else {
     listaDeAmigos.push(nombreAmigo);
     console.log(listaDeAmigos);
+    }
 }
 
 function actualizarListaAmigos() {
