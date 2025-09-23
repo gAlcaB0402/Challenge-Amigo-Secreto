@@ -16,6 +16,9 @@ Es ideal para sorteos, juegos o actividades en grupo.
 3. Haz clic en el botón **Sortea un amigo**.
 4. ¡El amigo seleccionado aparecerá en pantalla!
 
-
+## Estructura de archivos
+- index.html # HTML principal
+- app.js # Lógica del sorteo
+- style.css # Estilo de página
 
 
