@@ -29,5 +29,11 @@ for (i= 0; i < listaDeAmigos.length; i++) {
 
 
 function sortearAmigo() {
+    let resultado = document.getElementById("resultado");
+        //Validamos el array
+        if (listaDeAmigos.length == 0) {
+            resultado.innerHTML = "No hay amigos para sortear";
+            return; //Salimos de la función si no hay amigos
+        }
 
 }
