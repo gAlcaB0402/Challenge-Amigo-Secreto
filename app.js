@@ -30,6 +30,8 @@ for (i= 0; i < listaDeAmigos.length; i++) {
 
 function sortearAmigo() {
     let resultado = document.getElementById("resultado");
+    let lista = document.getElementById("listaAmigos");
+
         //Validamos el array
         if (listaDeAmigos.length == 0) {
             resultado.innerHTML = "No hay amigos para sortear";
@@ -42,6 +44,11 @@ function sortearAmigo() {
         
         //Mostrar amigo sorteado en consola
         let amigoSorteado = listaDeAmigos[indiceAleatorio];
-        console.log(`El amigo sorteado es ${amigoSorteado}`);
+
+        //Vaciar lista para que solo aparexca amigo sorteado
+        lista.innerHTML = "";
+
+        //Mostrar resultado
+        resultado.innerHTML = `El amigo sorteado es: ${amigoSorteado}`;
 
 }
