@@ -20,6 +20,7 @@ function limpiarCampo() {
 
 function actualizarListaAmigos() {
 let list = document.getElementById("listaAmigos");
+list.innerHTML = "";
 
 }
 
