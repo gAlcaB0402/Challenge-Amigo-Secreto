@@ -9,6 +9,13 @@ Es ideal para sorteos, juegos o actividades en grupo.
 - Seleccionar un amigo al azar al hacer clic en el botón "Sortea un amigo".
 - La lista desaparece al hacer el sorteo para que solo se vea el amigo elegido.
 
+## Cómo usarlo
+
+1. Abre el archivo `index.html` en tu navegador.
+2. Irán apareciendo los nombre de tus amigos en forma de lista conforme des click en "Anadir"
+3. Haz clic en el botón **Sortea un amigo**.
+4. ¡El amigo seleccionado aparecerá en pantalla!
+
 
 
 
