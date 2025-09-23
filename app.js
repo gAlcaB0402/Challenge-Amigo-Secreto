@@ -22,6 +22,9 @@ function actualizarListaAmigos() {
 let list = document.getElementById("listaAmigos");
 list.innerHTML = "";
 
+for (i= 0; i < listaDeAmigos.length; i++) {
+   list.innerHTML += `<li>${listaDeAmigos[i]}</li>`;
+}
 }
 
 
