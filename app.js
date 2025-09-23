@@ -38,6 +38,10 @@ function sortearAmigo() {
 
         //Generar un indice aleatorio
         let indiceAleatorio = Math.floor(Math.random()*listaDeAmigos.length);
-        console.log(`Indice aleatorio seleccionado: ${indiceAleatorio}`);
+            //console.log(`Indice aleatorio seleccionado: ${indiceAleatorio}`);
+        
+        //Mostrar amigo sorteado en consola
+        let amigoSorteado = listaDeAmigos[indiceAleatorio];
+        console.log(`El amigo sorteado es ${amigoSorteado}`);
 
 }
