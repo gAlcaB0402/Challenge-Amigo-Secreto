@@ -17,8 +17,11 @@ Es ideal para sorteos, juegos o actividades en grupo.
 4. ¡El amigo seleccionado aparecerá en pantalla!
 
 ## Estructura de archivos
-- index.html # HTML principal
-- app.js # Lógica del sorteo
-- style.css # Estilo de página
+- index.html : HTML principal
+- app.js : Lógica del sorteo
+- style.css : Estilo de página
 
+## Licencia
+
+Este proyecto es **libre para uso personal y educativo**.
 
