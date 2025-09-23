@@ -36,4 +36,8 @@ function sortearAmigo() {
             return; //Salimos de la función si no hay amigos
         }
 
+        //Generar un indice aleatorio
+        let indiceAleatorio = Math.floor(Math.random()*listaDeAmigos.length);
+        console.log(`Indice aleatorio seleccionado: ${indiceAleatorio}`);
+
 }
