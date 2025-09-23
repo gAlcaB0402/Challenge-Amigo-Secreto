@@ -8,6 +8,7 @@ function agregarAmigo() {
         alert("Por favor, inserte un nombre");
     } else {
     listaDeAmigos.push(nombreAmigo);
+    actualizarListaAmigos();
     console.log(listaDeAmigos);
     }
     limpiarCampo();
@@ -16,9 +17,12 @@ function agregarAmigo() {
 function limpiarCampo() {
     document.getElementById("amigo").value = ' ';
 }
+
 function actualizarListaAmigos() {
+let list = document.getElementById("listaAmigos");
 
 }
+
 
 function sortearAmigo() {
 
